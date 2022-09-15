@@ -95,11 +95,13 @@ const gameOver = () => {
   errorCount = 0;
   userText = "";
   display.classList.add("inactive");
+  
 };
 
 const closeModal = () => {
   modalBackground.classList.toggle("hidden");
   resultModal.classList.toggle("hidden");
+  location.reload()
 };
 
 const start = () => {
